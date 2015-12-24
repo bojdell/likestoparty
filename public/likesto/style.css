@@ -1,0 +1,17 @@
+html {
+  background-color: #4CAF50;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
+
+h1 {
+  color: rgb(255, 72, 61);
+}
+
+p, a {
+  color: white;
+}

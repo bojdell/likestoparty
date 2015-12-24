@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title LIKES TO PARTY
+    link(rel='stylesheet', type='text/css', href='/likesto/style.css')
+    link(href='https://fonts.googleapis.com/css?family=Nunito', rel='stylesheet', type='text/css')
+  body
+    h1 Who likes to party?!
+    p These folks sure do!
+      for subdomain in subdomains
+        p
+          a(href='http://' + subdomain + '.likesto.party') #{subdomain}
+
+    br
+    p Made with <3 by Bo
