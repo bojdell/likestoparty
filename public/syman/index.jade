@@ -1,0 +1,16 @@
+//- jade index.jade -O index.json -P
+doctype html
+html
+  head
+    title Syman Emoji Archive
+    link(rel='stylesheet', type='text/css', href='/syman/style.css')
+    link(href='https://fonts.googleapis.com/css?family=Cutive+Mono', rel='stylesheet', type='text/css')
+  body
+    h1 Syman Emoji Archive
+    ul
+      for emoji in emojis
+        li
+          img(src='/img/syman-emoji/' + emoji)
+          p #{':' + emoji.split('.')[0] + ':'}
+
+    p Made with <3 by Bo
