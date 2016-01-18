@@ -11,6 +11,7 @@ body {
 h1 {
   color: gray;
   padding-bottom: 0.6em;
+  font-weight: normal;
 }
 
 ul {
