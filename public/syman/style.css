@@ -14,14 +14,7 @@ h1 {
   font-weight: normal;
 }
 
-#emoji-container {
-  list-style: none;
-}
-
 .emoji-row {
   padding-bottom: 1.5em;
   text-align: center;
-  /*width: 200px;
-  display: block;
-  margin: 0 auto;*/
 }
